@@ -1141,6 +1141,10 @@ video {
   padding-top: 0.25rem;
 }
 
+.pb-12 {
+  padding-bottom: 3rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1532,6 +1536,10 @@ video {
   .md\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
+  }
+
+  .md\:pt-20 {
+    padding-top: 5rem;
   }
 
   .md\:leading-\[60px\] {
