@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="output.css" rel="stylesheet" />
+    <title>Shopify Clone</title>
+  </head>
+  <body>
+    <!-- Main Page -->
+    <header class="sticky top-0 z-10 shadow-lg bg-white">
+      <div class="bg-shopifyGreen300">
+        <div class="mx-auto text-center p-4">
+          <p>
+            Start a free trial and enjoy up to 97% off for 3 months on select
+            plans—offer ends 08/25.
+            <span class="underline font-bold cursor-pointer hover:no-underline"
+              >Sign up now</span
+            >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 inline-block ml-4 cursor-pointer"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </p>
+        </div>
+      </div>
+      <div class="max-w-7xl mx-auto">
+        <nav
+          class="bg-lightBg flex flex-wrap items-center justify-between py-4 px-[5%] xl:px-[7%]"
+        >
+          <div class="flex items-center">
+            <img
+              src="./assets/shopify-logo.png"
+              alt="Shopify Logo"
+              class="h-8 lg:h-10 lg:-mt-2"
+            />
+            <ul class="hidden ml-6 gap-6 lg:flex text-gray-600 font-semibold">
+              <li class="lg:text-lg hover:text-gray-800 cursor-pointer">
+                Start
+                <img
+                  src="./assets/caret-down-svgrepo-com.svg"
+                  alt="Caret Down"
+                  class="inline"
+                />
+              </li>
+              <li class="lg:text-lg hover:text-gray-800 cursor-pointer">
+                Sell
+                <img
+                  src="./assets/caret-down-svgrepo-com.svg"
+                  alt="Caret Down"
+                  class="inline"
+                />
+              </li>
+              <li class="lg:text-lg hover:text-gray-800 cursor-pointer">
+                Market
+                <img
+                  src="./assets/caret-down-svgrepo-com.svg"
+                  alt="Caret Down"
+                  class="inline"
+                />
+              </li>
+              <li class="lg:text-lg hover:text-gray-800 cursor-pointer">
+                Manage
+                <img
+                  src="./assets/caret-down-svgrepo-com.svg"
+                  alt="Caret Down"
+                  class="inline"
+                />
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul
+              class="hidden ml-6 gap-6 lg:flex lg:items-center text-gray-600 font-semibold"
+            >
+              <li class="lg:text-lg hover:text-gray-800 cursor-pointer">
+                Pricing
+              </li>
+              <li class="lg:text-lg hover:text-gray-800 cursor-pointer">
+                Learn
+                <img
+                  src="./assets/caret-down-svgrepo-com.svg"
+                  alt="Caret Down"
+                  class="inline"
+                />
+              </li>
+              <li class="lg:text-lg hover:text-gray-800 cursor-pointer">
+                Log In
+              </li>
+              <li
+                class="lg:text-lg hover:bg-shopifyGreen500 cursor-pointer hover:shadow-xl bg-shopifyGreen400 text-white px-4 py-2 rounded shadow-lg"
+              >
+                Try For Free
+              </li>
+            </ul>
+          </div>
+
+          <div class="lg:hidden flex items-center gap-4 text-gray-600">
+            <p class="font-semibold">Log In</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 cursor-pointer"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
+            </svg>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="max-w-7xl mx-auto bg-lightBg py-12 lg:flex">
+      <div
+        class="max-w-7xl mx-auto py-4 lg:py-12 px-[5%] xl:px-[7%] space-y-6 lg:items-center lg:w-1/2"
+      >
+        <h1
+          class="text-shopifyGreen500 text-3xl lg:text-4xl lg:max-w-lg font-extrabold leading-10 max-w-sm"
+        >
+          The easiest way to sell online in India
+        </h1>
+        <p class="text-gray-500 font-semibold lg:pt-6">
+          Try one of the most powerful platforms on the market for free. No
+          technical knowledge needed.
+        </p>
+        <div class="gap-2 grid grid-cols-1 sm:grid-cols-2">
+          <input
+            type="text"
+            placeholder="Enter your email address"
+            class="px-2 py-4 grid-flow-col rounded border border-gray-400"
+          />
+          <button
+            class="px-2 py-4 sm:w-48 sm:p-4 bg-shopifyGreen400 text-white font-bold rounded"
+          >
+            Try For Free
+          </button>
+        </div>
+        <p class="text-xs text-gray-600">
+          Try Shopify free for 14 days, no credit card required. By entering
+          your email, you agree to receive marketing emails from Shopify.
+        </p>
+      </div>
+      <video
+        src="./assets/inbrochurebannerv2-97d1a3f03a5f9e8d85306e06358d6cff68f2316530f6a1b8a81e0440ee684ea9.webm"
+        loop
+        autoplay
+        class="lg:w-1/2"
+      ></video>
+    </section>
+
+    <section class="max-w-7xl mx-auto bg-shopifyGreen500 text-white">
+      <div class="py-12 md:py-20 px-[5%] xl:px-[7%] space-y-6">
+        <h2 class="text-2xl font-semibold lg:text-4xl">
+          Bring your business online
+        </h2>
+        <div class="space-y-4">
+          <p>
+            Create an ecommerce website backed by powerful tools that help you
+            find customers, drive sales, and manage your day-to-day.
+          </p>
+          <div class="group duration-500 transition cursor-pointer font-bold">
+            <a href="#"
+              >Explore more examples
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-4 w-4 group-hover:ml-1 inline-block"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div
+          class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-x-4 gap-y-12 lg:pt-6"
+        >
+          <div>
+            <img src="./assets/site-1.webp" alt="Site 1" />
+            <div class="group cursor-pointer">
+              <h3 class="uppercase group-hover:underline font-bold mt-4">
+                food & drink
+              </h3>
+              <p>Blue Tokai</p>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/site-2.webp" alt="Site 2" />
+            <div class="group cursor-pointer">
+              <h3 class="uppercase group-hover:underline font-bold mt-4">
+                jewelry
+              </h3>
+              <p>Quirksmith</p>
+            </div>
+          </div>
+          <div>
+            <img src="./assets/site-3.webp" alt="Site 3" />
+            <div class="group cursor-pointer">
+              <h3 class="uppercase group-hover:underline font-bold mt-4">
+                electronics
+              </h3>
+              <p>Crossbeats</p>
+            </div>
+          </div>
+          <div class="md:hidden lg:block">
+            <img src="./assets/site-4.webp" alt="Site 4" />
+            <div class="group cursor-pointer">
+              <h3 class="uppercase group-hover:underline font-bold mt-4">
+                beauty
+              </h3>
+              <p>Mcaffeine</p>
+            </div>
+          </div>
+          <div class="hidden xl:block">
+            <img src="./assets/site-5.webp" alt="Site 5" />
+            <div class="group cursor-pointer">
+              <h3 class="uppercase group-hover:underline font-bold mt-4">
+                fashion
+              </h3>
+              <p>Bunaai</p>
+            </div>
+          </div>
+        </div>
+        <h3 class="text-2xl font-semibold pt-20">Take the best path forward</h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-10 pt-6">
+          <div class="max-w-md">
+            <img src="./assets/icon-1.png" alt="Icon 1" />
+            <h3 class="font-bold mt-4 lg:text-lg">Start an online business</h3>
+            <p class="mt-1">
+              Create a business, whether you’ve got a fresh idea or are looking
+              for a new way to make money.
+            </p>
+          </div>
+          <div class="max-w-md">
+            <img src="./assets/icon-2.png" alt="Icon 2" />
+            <h3 class="font-bold mt-4 lg:text-lg">Move your business online</h3>
+            <p class="mt-1">
+              Turn your retail store into an online store and keep serving
+              customers without missing a beat.
+            </p>
+          </div>
+          <div class="max-w-md">
+            <img src="./assets/icon-3.png" alt="Icon 3" />
+            <h3 class="font-bold mt-4 lg:text-lg">Switch to Shopify</h3>
+            <p class="mt-1">
+              Bring your business to Shopify, no matter which ecommerce platform
+              you’re currently using.
+            </p>
+          </div>
+          <div class="max-w-md">
+            <img src="./assets/icon-4.png" alt="Icon 4" />
+            <h3 class="font-bold mt-4 lg:text-lg">Hire a Shopify expert</h3>
+            <p class="mt-1">
+              Get set up with the help of a trusted freelancer or agency from
+              the Shopify Experts Marketplace.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto">
+      <div class="py-12 md:py-20 px-[5%] xl:px-[7%]">
+        <div class="text-center space-y-6">
+          <h2 class="text-2xl">With you wherever you’re going</h2>
+          <p class="text-gray-600 text-lg">
+            One platform with all the ecommerce and point of sale features you
+            need to start, run, and grow your business.
+          </p>
+        </div>
+        <div
+          class="flex flex-col-reverse gap-12 items-center pt-20 lg:flex-row"
+        >
+          <video
+            src="./assets/sell-everywhere.webm"
+            autoplay
+            loop
+            class="lg:w-96"
+          ></video>
+          <div class="space-y-4">
+            <h3 class="text-2xl">Sell everywhere</h3>
+            <p class="text-gray-600">
+              Use one platform to sell products to anyone, anywhere—in person
+              with Point of Sale and online through your website, social media,
+              and online marketplaces.
+            </p>
+            <div
+              class="group duration-500 transition cursor-pointer font-bold text-shopifyGreen400"
+            >
+              <a href="#"
+                >Explore ways to sell
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 group-hover:ml-1 inline-block"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col-reverse gap-12 items-center pt-20 lg:flex-row-reverse"
+        >
+          <img
+            src="./assets/market-your-business.webp"
+            alt="market your business"
+            class="lg:w-1/2"
+          />
+          <div class="space-y-4">
+            <h3 class="text-2xl">Market your business</h3>
+            <p class="text-gray-600">
+              Take the guesswork out of marketing with built-in tools that help
+              you create, execute, and analyze digital marketing campaigns.
+            </p>
+            <div
+              class="group duration-500 transition cursor-pointer font-bold text-shopifyGreen400"
+            >
+              <a href="#"
+                >Explore how to market your business
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 group-hover:ml-1 inline-block"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col-reverse gap-12 items-center pt-20 lg:flex-row"
+        >
+          <img
+            src="./assets/manage-everything.png"
+            alt="Manage Everything"
+            class="lg:w-1/2 shadow-lg"
+          />
+          <div class="space-y-4">
+            <h3 class="text-2xl">Manage Everything</h3>
+            <p class="text-gray-600">
+              Gain the insights you need to grow—use a single dashboard to
+              manage orders, shipping, and payments anywhere you go.
+            </p>
+            <div
+              class="group duration-500 transition cursor-pointer font-bold text-shopifyGreen400"
+            >
+              <a href="#"
+                >Explore how to manage your business
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 group-hover:ml-1 inline-block"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-shopifyGreen100 py-12">
+      <div class="max-w-7xl mx-auto py-12 md:py-20 px-[5%] xl:px-[7%]">
+        <h2 class="text-shopifyGreen500 text-2xl">
+          Explore more from Shopify in India
+        </h2>
+        <div class="flex flex-col md:flex-row-reverse mt-10 bg-white">
+          <img
+            src="./assets/launch-store.webp"
+            alt="Launch Your Store"
+            class="md:w-1/2 md:object-cover md:h-72"
+          />
+          <div
+            class="p-6 md:p-10 md:flex md:flex-col md:items-center space-y-3"
+          >
+            <p class="font-bold">START</p>
+            <h2 class="text-xl">
+              Launch your store with the help of a Shopify Expert
+            </h2>
+            <p class="text-gray-800">
+              Find hundreds of experts from India ready to help you get your
+              store up and running, from choosing a theme to building a fully
+              customized site.
+            </p>
+            <div
+              class="group duration-500 transition cursor-pointer font-bold text-shopifyGreen400"
+            >
+              <a href="#"
+                >Browse Experts in India
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-4 w-4 group-hover:ml-1 inline-block"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto">
+      <div class="py-12 md:py-20 px-[5%] xl:px-[7%] space-y-8">
+        <h2 class="text-2xl text-gray-900">
+          Empowering independent business owners everywhere
+        </h2>
+        <h3 class="text-xl text-gray-800">
+          Millions of businesses in 175 countries around the world have made
+          over $496 billion USD in sales using Shopify.
+        </h3>
+        <div
+          class="group duration-500 transition cursor-pointer font-bold text-shopifyGreen400"
+        >
+          <a href="#"
+            >Learn more about Shopify
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4 group-hover:ml-1 inline-block"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              />
+            </svg>
+          </a>
+        </div>
+        <img src="./assets/globe.png" alt="Globe" />
+      </div>
+    </section>
+
+    <section class="py-12">
+      <div class="max-w-7xl mx-auto py-12 md:py-20 px-[5%] xl:px-[7%]">
+        <div class="flex flex-col md:flex-row mt-10 bg-shopifyGreen600">
+          <div class="md:w-1/2">
+            <img
+              src="./assets/shopify-lady.jpg"
+              alt="Happy Customer"
+              class="object-cover w-full h-full"
+            />
+          </div>
+          <div
+            class="p-6 md:w-1/2 py-10 lg:py-16 md:p-10 flex flex-col items-center space-y-6 lg:space-y-12 text-white lg:px-12"
+          >
+            <p
+              class="text-xl lg:text-3xl lg:leading-relaxed font-semibold text-center max-w-sm"
+            >
+              “Shopify was my knight in shining armor when I exhausted every
+              other possibility of getting my online store up and running. It
+              was stunningly easy to use, with more features and plug-ins that I
+              didn’t even know I wanted.”
+            </p>
+            <img src="./assets/alicia.png" alt="Alicia" />
+            <p class="font-bold">Alicia | Alicia Souza</p>
+          </div>
+        </div>
+        <div
+          class="mt-10 flex flex-wrap gap-6 justify-center lg:justify-between items-center"
+        >
+          <img src="./assets/logo-1.png" alt="Logo 1" class="w-28" />
+          <img src="./assets/logo-2.png" alt="Logo 2" class="w-28" />
+          <img src="./assets/logo-3.png" alt="Logo 3" class="w-28" />
+          <img src="./assets/logo-4.webp" alt="Logo 4" class="w-28" />
+          <img src="./assets/logo-5.webp" alt="Logo 5" class="w-28" />
+          <img src="./assets/logo-6.png" alt="Logo 6" class="w-28" />
+          <img src="./assets/logo-7.png" alt="Logo 7" class="w-28" />
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-lightBg">
+      <div class="flex flex-col lg:flex-row">
+        <div
+          class="max-w-7xl mx-auto py-16 space-y-10 lg:py-24 px-[5%] xl:px-[7%] self-center"
+        >
+          <h2 class="text-2xl font-semibold">
+            Get the help you need, <br />
+            every step of the way
+          </h2>
+          <div class="grid md:grid-cols-2 gap-8">
+            <div class="space-y-1.5">
+              <h3 class="font-bold text-gray-800">Shopify support</h3>
+              <p class="text-gray-600">
+                Contact support 24/7, whether you’re troubleshooting issues or
+                looking for business advice.
+              </p>
+              <div
+                class="group duration-500 transition cursor-pointer font-bold text-shopifyGreen400 pt-1"
+              >
+                <a href="#"
+                  >Contact support
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 group-hover:ml-1 inline-block"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="space-y-1.5">
+              <h3 class="font-bold text-gray-800">Shopify App Store</h3>
+              <p class="text-gray-600">
+                Add features and functionality to your business with 6,000+ apps
+                that integrate directly with Shopify.
+              </p>
+              <div
+                class="group duration-500 transition cursor-pointer font-bold text-shopifyGreen400 pt-1"
+              >
+                <a href="#"
+                  >Visit the Shopify App Store
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 group-hover:ml-1 inline-block"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="space-y-1.5">
+              <h3 class="font-bold text-gray-800">
+                Shopify Experts Marketplace
+              </h3>
+              <p class="text-gray-600">
+                Hire a Shopify expert to help you with everything from store
+                setup to SEO.
+              </p>
+              <div
+                class="group duration-500 transition cursor-pointer font-bold text-shopifyGreen400 pt-1"
+              >
+                <a href="#"
+                  >Explore the Shopify Experts Marketplace
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-4 w-4 group-hover:ml-1 inline-block"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="md:w-2/6 lg:w-full">
+          <img
+            src="./assets/get-help.webp"
+            alt="Get Experts Help"
+            class="w-full h-full object-cover"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto">
+      <div class="py-12 md:py-20 px-[5%] xl:px-[7%]">
+        <div
+          class="flex flex-col justify-center items-center text-center space-y-6"
+        >
+          <h2 class="text-2xl lg:text-3xl">
+            Start your business journey with Shopify
+          </h2>
+          <p class="text-gray-600 lg:text-lg">
+            Try Shopify for free, and explore all the tools and services you
+            need to start, run, and grow your business.
+          </p>
+          <button
+            class="lg:text-lg hover:bg-shopifyGreen500 cursor-pointer hover:shadow-xl bg-shopifyGreen400 text-white font-bold px-6 py-3 rounded shadow-lg"
+          >
+            Start Free Trial
+          </button>
+        </div>
+        <div class="text-center lg:text-end mt-12 font-bold text-lg group">
+          <a href="#" class="text-shopifyGreen400"
+            >Back to top
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 inline group-hover:mb-2"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M8 7l4-4m0 0l4 4m-4-4v18"
+              /></svg
+          ></a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
